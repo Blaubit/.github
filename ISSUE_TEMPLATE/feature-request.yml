@@ -1,0 +1,24 @@
+name: "💡 Sugerencia de funcionalidad"
+description: Sugerí una mejora o nueva funcionalidad.
+title: "[FEATURE] - <descripción corta>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Gracias por proponer una mejora 🙌"
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: "¿Qué funcionalidad te gustaría?"
+      description: "Describí la idea de forma clara."
+      placeholder: "Sería útil si el sistema pudiera..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "¿Por qué sería útil?"
+      description: "¿Qué problema resuelve o qué aporta?"
+      placeholder: "Esto mejoraría..."

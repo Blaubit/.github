@@ -1,0 +1,26 @@
+name: "🔧 Tarea técnica"
+description: Crear una tarea técnica del equipo de desarrollo.
+title: "[TASK] - <descripción corta>"
+labels: ["task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "🧠 Descripción"
+      placeholder: "Explicá qué hay que hacer y por qué."
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: "✅ Subtareas"
+      placeholder: |
+        - [ ] Paso 1
+        - [ ] Paso 2
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "🧪 Criterios de Aceptación"
+      placeholder: |
+        - [ ] ✅ Criterio 1
+        - [ ] ✅ Criterio 2
