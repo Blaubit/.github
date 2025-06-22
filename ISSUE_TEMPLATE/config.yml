@@ -1,13 +1,2 @@
 blank_issues_enabled: false
-contact_links:
-  - name: "🐛 Reportar un Bug"
-    url: "https://github.com/Blaubit/issues/new?template=bug-report.yml"
-    about: "Informar sobre un error o comportamiento inesperado"
-
-  - name: "💡 Sugerir Funcionalidad"
-    url: "https://github.com/Blaubit/issues/new?template=feature-request.yml"
-    about: "Proponer una mejora o nueva característica"
-
-  - name: "🔧 Crear Tarea Técnica"
-    url: "https://github.com/Blaubit/issues/new?template=general-task.yml"
-    about: "Solicitar una tarea de desarrollo o infraestructura"
+contact_links: []
