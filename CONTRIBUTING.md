@@ -83,14 +83,19 @@ import AppointmentController from "./AppointmentController";
 - Comentarios breves pero útiles, evitar redundancias
 
 ---
-
+ 
 ## 🔄 Git
 
-- Usar mensajes de commit en presente:
-  - ✅ Correcto: `feat: add prettier formatter`
-  - ❌ Incorrecto: `added prettier formatter`
+- Usar mensajes de commit en presente (español):
+  - ✅ Correcto: `feat: agrega formateador prettier`  
+  - ❌ Incorrecto: `agregué formateador prettier`  
+  - ✅ Correcto: `fix: corrige validación de formulario`
+  - ❌ Incorrecto: `corregí el bug del formulario`
 
-### Prefijos recomendados:
+**Convención**:  
+`<tipo>: <mensaje breve en presente>`
+
+### Prefijos recomendados (Tipos):
 
 - `feat`: Nueva funcionalidad
 - `fix`: Corrección de errores
